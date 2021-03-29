@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/VKQT">
+        <file>Resources/ImageCutter/imagecutter.jpg</file>
+    </qresource>
+    <qresource prefix="/HeterotypeButton">
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_left_lower_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_left_lower_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_left_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_left_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_lower_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_lower_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right-lower_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right-lower_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right-upper_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_right-upper_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_up_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_up_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_upper-left_nor_hot_press_02.png</file>
+        <file>Resources/HeterotypeButton/btn_centre_tuimu_upper-left_nor_hot_press_03.png</file>
+        <file>Resources/HeterotypeButton/bg.png</file>
+    </qresource>
+</RCC>

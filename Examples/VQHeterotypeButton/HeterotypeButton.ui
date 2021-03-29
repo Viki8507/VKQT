@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HeterotypeButton</class>
+ <widget class="QWidget" name="HeterotypeButton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>94</width>
+    <height>94</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HeterotypeButton</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#HeterotypeButton QPushButton{background:transparent;}
+
+QLabel#label{image:url(&quot;:/HeterotypeButton/Resources/HeterotypeButton/bg.png&quot;);}
+
+/* 上 */
+QPushButton#btnTop{
+min-width:30px;min-height:22px;max-width:30px;max-height:22px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_up_nor_hot_press_02.png);}
+QPushButton#btnTop:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_up_nor_hot_press_02.png);}
+QPushButton#btnTop:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_up_nor_hot_press_03.png);}
+
+/* 下 */
+QPushButton#btnBottom{
+min-width:30px;min-height:22px;max-width:30px;max-height:22px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_lower_nor_hot_press_02.png);}
+QPushButton#btnBottom:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_lower_nor_hot_press_02.png);}
+QPushButton#btnBottom:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_lower_nor_hot_press_03.png);}
+
+/* 左 */
+QPushButton#btnLeft{
+min-width:23px;min-height:30px;max-width:23px;max-height:30px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_nor_hot_press_02.png);}
+QPushButton#btnLeft:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_nor_hot_press_02.png);}
+QPushButton#btnLeft:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_nor_hot_press_03.png);}
+
+/* 右 */
+QPushButton#btnRight{
+min-width:23px;min-height:30px;max-width:23px;max-height:30px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right_nor_hot_press_02.png);}
+QPushButton#btnRight:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right_nor_hot_press_02.png);}
+QPushButton#btnRight:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right_nor_hot_press_03.png);}
+
+/* 左上 */
+QPushButton#btnLeftTop{
+min-width:30px;min-height:30px;max-width:30px;max-height:30px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_upper-left_nor_hot_press_02.png);}
+QPushButton#btnLeftTop:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_upper-left_nor_hot_press_02.png);}
+QPushButton#btnLeftTop:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_upper-left_nor_hot_press_03.png);}
+
+/* 左下 */
+QPushButton#btnLeftBottom{
+min-width:29px;min-height:29px;max-width:29px;max-height:29px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_lower_nor_hot_press_02.png);}
+QPushButton#btnLeftBottom:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_lower_nor_hot_press_02.png);}
+QPushButton#btnLeftBottom:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_left_lower_nor_hot_press_03.png);}
+
+/* 右上 */
+QPushButton#btnRightTop{
+min-width:29px;min-height:29px;max-width:29px;max-height:29px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-upper_nor_hot_press_02.png);}
+QPushButton#btnRightTop:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-upper_nor_hot_press_02.png);}
+QPushButton#btnRightTop:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-upper_nor_hot_press_03.png);}
+
+/* 右下 */
+QPushButton#btnRightBottom{
+min-width:29px;min-height:29px;max-width:29px;max-height:29px;
+border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-lower_nor_hot_press_02.png);}
+QPushButton#btnRightBottom:hover{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-lower_nor_hot_press_02.png);}
+QPushButton#btnRightBottom:pressed{border-image:url(:/HeterotypeButton/Resources/HeterotypeButton/btn_centre_tuimu_right-lower_nor_hot_press_03.png);}
+</string>
+  </property>
+  <widget class="QPushButton" name="btnLeftBottom">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>52</y>
+     <width>29</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBottom">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>62</y>
+     <width>30</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRightBottom">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>52</y>
+     <width>29</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRight">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>30</y>
+     <width>23</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRightTop">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>9</y>
+     <width>29</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnTop">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>6</y>
+     <width>30</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLeftTop">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>8</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLeft">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>30</y>
+     <width>23</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>0</y>
+     <width>92</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/Kommander/Resources/bg_centre_tuimu.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>btnLeftBottom</zorder>
+  <zorder>btnBottom</zorder>
+  <zorder>btnRightBottom</zorder>
+  <zorder>btnRight</zorder>
+  <zorder>btnRightTop</zorder>
+  <zorder>btnTop</zorder>
+  <zorder>btnLeftTop</zorder>
+  <zorder>btnLeft</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../VKQT/VKQT.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="VQCompleterTextEdit">
+      <UniqueIdentifier>{0182ffc1-d91b-4b15-a10b-a35680e7f6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VQHeterotypeButton">
+      <UniqueIdentifier>{e41be02b-9ffa-4990-aed5-3ea7044e4ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VQImageCutter">
+      <UniqueIdentifier>{13c84fcf-49b6-4df8-b955-a65c4d71aa7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VQM3u8Helper">
+      <UniqueIdentifier>{e3eedab5-8b02-43e7-ae89-2ab024968478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VQTimelineWidget">
+      <UniqueIdentifier>{756a7499-40ba-47fa-855f-2f1bfebd2918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VQDemoView">
+      <UniqueIdentifier>{2f043805-638e-4446-adc5-fc6f9eed3ba3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VQTimelineWidget\TimelineWidget.cpp">
+      <Filter>VQTimelineWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="VQM3u8Helper\M3u8Helper.cpp">
+      <Filter>VQM3u8Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="VQImageCutter\ImageCutter.cpp">
+      <Filter>VQImageCutter</Filter>
+    </ClCompile>
+    <ClCompile Include="VQHeterotypeButton\HeterotypeButton.cpp">
+      <Filter>VQHeterotypeButton</Filter>
+    </ClCompile>
+    <ClCompile Include="VQCompleterTextEdit\CompleterTextEdit.cpp">
+      <Filter>VQCompleterTextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="VQDemoView\ImageCutterDemo.cpp">
+      <Filter>VQDemoView</Filter>
+    </ClCompile>
+    <ClCompile Include="VQDemoView\TimelineDemo.cpp">
+      <Filter>VQDemoView</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="VQTimelineWidget\TimelineWidget.h">
+      <Filter>VQTimelineWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="VQM3u8Helper\M3u8Helper.h">
+      <Filter>VQM3u8Helper</Filter>
+    </QtMoc>
+    <QtMoc Include="VQImageCutter\ImageCutter.h">
+      <Filter>VQImageCutter</Filter>
+    </QtMoc>
+    <QtMoc Include="VQHeterotypeButton\HeterotypeButton.h">
+      <Filter>VQHeterotypeButton</Filter>
+    </QtMoc>
+    <QtMoc Include="VQCompleterTextEdit\CompleterTextEdit.h">
+      <Filter>VQCompleterTextEdit</Filter>
+    </QtMoc>
+    <QtMoc Include="Examples.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="VQDemoView\ImageCutterDemo.h">
+      <Filter>VQDemoView</Filter>
+    </QtMoc>
+    <QtMoc Include="VQDemoView\TimelineDemo.h">
+      <Filter>VQDemoView</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="VQTimelineWidget\TimelineWidget.ui">
+      <Filter>VQTimelineWidget</Filter>
+    </QtUic>
+    <QtUic Include="VQImageCutter\ImageCutter.ui">
+      <Filter>VQImageCutter</Filter>
+    </QtUic>
+    <QtUic Include="VQHeterotypeButton\HeterotypeButton.ui">
+      <Filter>VQHeterotypeButton</Filter>
+    </QtUic>
+    <QtUic Include="VQDemoView\ImageCutterDemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="VQDemoView\TimelineDemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Examples.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="VKQT_Examples.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
