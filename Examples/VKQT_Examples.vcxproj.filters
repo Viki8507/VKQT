@@ -41,6 +41,9 @@
     <Filter Include="VQDemoView">
       <UniqueIdentifier>{2f043805-638e-4446-adc5-fc6f9eed3ba3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="VQTools">
+      <UniqueIdentifier>{a23983ac-be53-4e87-9546-ebfd2380db62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -69,6 +72,9 @@
     </ClCompile>
     <ClCompile Include="Examples.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VQTools\Singleton.cpp">
+      <Filter>VQTools</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,5 +127,19 @@
     <QtRcc Include="VKQT_Examples.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VQSimpleIni\SimpleIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VQSimpleIni\testIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VQTools\SimpleIni.h">
+      <Filter>VQTools</Filter>
+    </ClInclude>
+    <ClInclude Include="VQTools\Singleton.h">
+      <Filter>VQTools</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
